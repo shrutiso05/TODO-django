@@ -1,3 +1,5 @@
+{% extends 'todo_list/main.html'}
+{% block content  %}
 <h1>Register</h1>
 
 <form method="POST">
@@ -6,5 +8,5 @@
     <input type="submit" value="Register">
 </form>
 
-
 <p>Already have an account? <a href="{% url 'login' %}">Login</a></p>
+{% endblock content %}
