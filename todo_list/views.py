@@ -1,5 +1,4 @@
-from typing import Any
-from django.forms.models import BaseModelForm
+
 from django.http import HttpResponse
 from django.shortcuts import render,redirect
 from django.views.generic.list import ListView
